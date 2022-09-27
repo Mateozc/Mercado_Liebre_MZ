@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+
+.main-header{
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+
+.hamburguer-button{
+    display: block;
+    text-align: center;
+}
+
+.burger{
+    margin: 10px;
+    padding: 0.5em;
+    background-color:#1259c3 ;
+    color: white;
+    border-radius: 0.2em;
+    font-size: 30px;
+}
+
+.logo{
+    width: 50%;
+    padding: 20px;
+}
+
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+}
+
+input{
+    background-color: #FFFFFF;
+    border-radius: 0.2em;
+    font-size: 150%;
+    border: none;
+    margin: 0;
+    padding: 5%;
+    width: 100%;
+}
+
+.lupa{
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    position:relative;
+    height: auto;
+    color: #666;
+    margin-left: -30px;
+}
+
+.searchbar{
+    width: 50%;
+    align-self: center;
+    display: flex;
+}
+
+.main-navbar{
+    display: none;
+}
+
+.main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+header{
+    background-color: #EAC926;
+    font-size: 12px;
+}
+
+header p{
+    text-align: center;
+}
+
+.banner{
+    display: block;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+main{
+    width: 90%;
+    background-color: #ebebeb;
+    margin: auto;
+}
+
+main section{
+    margin-bottom: 10px;
+    margin: auto;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main article{
+    margin-bottom: 20px;
+}
+
+main img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main section article i{
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    color: #39b54a;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 89%;
+    margin-top: -30px;
+    transition: all 450ms;
+}
+
+main section article i:hover{
+    transform: rotate(-90deg);
+}
+
+.pd{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div{
+    width: 90% ;
+    background-color: #FFFFFF ;
+    border-top: 1px solid #ebebeb;
+    margin: auto;
+    padding: 15px;
+}
+
+main h2{
+    color: #666;
+}
+
+main h3{
+    color: #666;
+    font-size: 16px;
+}
+
+h2{
+    font-size: 24px;
+    width: 90%;
+    padding: 20px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.precios{
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuentos{
+    padding-left: 15px;
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer,
+footer *{
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #666
+}
+
+footer i{
+    width: auto;
+    margin-bottom: 10px;
+    color: #1259c3;
+    padding: 0;
+}
+
+footer div{
+    margin-bottom: 50px;
+}
+
+form{
+    background-color: #ebebeb;
+    padding: 15px;
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+    display: block;
+    font-size: 100%;
+    width: 100%;
+}
+
+.control-login{
+    margin-bottom: 30px;
+    display: block;
+    font-size: 100%;
+    width: 100%;
+}
+
+.radio{
+    display: inline;
+    width: auto;
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+.boton-formulario{
+    background-color: #1259c3;
+    border: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.boton-login{
+    background-color: #1259c3;
+    border: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 70px;
+}
+
+.boton-login:hover{
+    background-color: #0022AA;
+}
+
+.feedback{
+    color: red;
+}
+
+@media only screen and (min-width: 361px) {
+    main div h3{
+        font-size: 0;
+    }
+
+    main div h3:hover{
+        font-size: 16px;
+    }
+
+    header nav{
+        display: none;
+    }
+    main article{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .logo{
+        width: 33.3%;
+    }
+
+    .searchbar{
+        width: 33.3%;
+    }
+
+    input{
+        border: solid 1px black;
+        padding: 0;
+        margin: 0;
+        height: 40px;
+    }
+
+    form input{
+        border: none !important;
+    }
+
+    
+    .lupa{
+        color: #000000;
+        margin-left: 10px;
+        border: solid 1px black;
+    }
+    
+    .searchbar{
+        align-self: center;
+        display: flex;
+    }
+
+
+    main article:hover h3{
+        font-size: 16px;
+    }
+
+    main div:hover, main img:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .hamburguer-button{
+        display: none;
+    }
+    
+    .main-header-top-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .copy-header{
+        width: 33.3% ;
+        text-align: left;
+        align-self: center;
+    }
+ 
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+
+    .main-navbar li{
+        margin: 0 5px;
+    }
+    .main-navbar a{
+        font-size: 16px;
+    }
+    main article{
+        width: 50%;
+    }
+
+    .control-login{
+        width: 70vw;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .boton-login{
+        display: block;
+        height: 40px;
+        width: 70vw;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+/*    .logo{
+        width: 250px ;
+    }*/
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .main-header-top-bar{
+        align-items: center;
+    }
+
+    .copy-header{
+        max-width: none;
+    }
+    .main-navbar li{
+        margin: 0 10px;
+    }
+    .main-navbar a{
+        font-size: 19px;
+    }
+    main article{
+        width: 25%;
+    }
+    footer div{
+        width: 33.3%;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 50px;
+    }
+}
